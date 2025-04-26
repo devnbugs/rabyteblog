@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "119951896790",
+    "project_id": "rabyteapp",
+    "storage_bucket": "rabyteapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119951896790:android:1bf07bfebcb7847c099977",
+        "android_client_info": {
+          "package_name": "com.rabyte.standard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFdcTKrFRt9rWPeLtL8hNpQsKwICzBOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
