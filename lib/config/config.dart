@@ -7,7 +7,7 @@ class Config {
   static const appName = 'Rabyte Standard';
 
   // Onesignal App ID
-  static const String onesignalAppID = 'd4c87597-53b1-46c2*********';
+  static const String onesignalAppID = '894850c7-3b50-4e58-bbc8-30cf17357b31';
 
   //iOS App ID (Ignore this for Android)
   static const iOSAppID = '000000';
