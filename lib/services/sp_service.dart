@@ -33,15 +33,11 @@ class SPService {
   Future<ConfigModel?> getConfigs () async{
     final prefs = await SharedPreferences.getInstance();
     String? rawData = prefs.getString('configs');
-    if(rawData != null){
-      Map<String, dynamic> json = jsonDecode(rawData);
-      ConfigModel configModel = ConfigModel.fromJson(json);
-      debugPrint(configModel.supportEmail);
-      return configModel;
-    }else{
-      return null;
+    Map<String, dynamic> json = jsonDecode(rawData!);
+    ConfigModel configModel = ConfigModel.fromJson(json);
+    debugPrint(configModel.supportEmail);
+    return configModel;
     }
-  }
 
   Future saveHomeCategories (List<Category> categories) async{
     final prefs = await SharedPreferences.getInstance();
@@ -54,10 +50,8 @@ class SPService {
     List<Category> categories = [];
     final prefs = await SharedPreferences.getInstance();
     String? rawData = prefs.getString('home_categories');
-    if(rawData != null){
-      categories = jsonDecode(rawData);
-      debugPrint(categories[0].name);
-    }
-    return categories;
+    categories = jsonDecode(rawData!);
+    debugPrint(categories[0].name);
+      return categories;
   }
 }
