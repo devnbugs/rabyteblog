@@ -9,10 +9,10 @@ class AdConfig {
   static const String nativeAdUnitIdAnndroid = 'ca-app-pub-2742296332020210/5764954223';
 
   // ----iOS------
-  static const String appIdiOS = 'ca-app-pub-3940256099942544~1458002511';
-  static const String interstitialAdUnitIdiOS = 'ca-app-pub-3940256099942544/4411468910';
-  static const String bannerAdUnitIdiOS = 'ca-app-pub-3940256099942544/2934735716';
-  static const String nativeAdUnitIdiOS = 'ca-app-pub-3940256099942544/3986624511';
+  static const String appIdiOS = 'ca-app-pub-2742296332020210~3556194483';
+  static const String interstitialAdUnitIdiOS = 'ca-app-pub-2742296332020210/5307425702';
+  static const String bannerAdUnitIdiOS = 'ca-app-pub-2742296332020210/9930031141';
+  static const String nativeAdUnitIdiOS = 'ca-app-pub-2742296332020210/6741002276';
 
   // -- Don't edit these --
 
