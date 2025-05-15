@@ -22,6 +22,8 @@ import '../blocs/popular_articles_bloc.dart';
 import '../services/app_links_service.dart';
 import '../tabs/bookmark_tab.dart';
 import 'package:provider/provider.dart';
+import 'package:wordpress_app/services/ad_manager.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -176,5 +178,15 @@ class _HomePageState extends State<HomePage> {
       splashColor: Theme.of(context).primaryColor,
       onTap: (index) => onItemTapped(index),
     );
+  }
+  int _tapCount = 0;
+
+void _onUserTap() {
+  _tapCount++;
+  if (_tapCount >= 10) {
+    _tapCount = 0;
+    AdManager.showRewardedAd(() {
+      print("User watched the ad and earned a reward.");
+    });
   }
 }
