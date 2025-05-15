@@ -5,7 +5,7 @@ class AdManager {
 
   static void loadRewardedAd(Function(RewardedAd ad)? onAdLoaded) {
     RewardedAd.load(
-      adUnitId: 'ca-app-pub-3940256099942544/5224354917', // Replace with your real Ad Unit
+      adUnitId: 'ca-app-pub-2742296332020210/2609088094', // Replace with your real Ad Unit
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (ad) {
