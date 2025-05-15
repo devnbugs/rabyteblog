@@ -79,7 +79,8 @@
         <!-- Admob Ads-->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2742296332020210~5912277974" />
+            android:value="ca-app-pub-2742296332020210~5912277974"
+            android:resource="@xml/gma_ad_services_config" />
 
 
         <!-- fb login config -->

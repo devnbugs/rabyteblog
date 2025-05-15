@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class AdManager {
