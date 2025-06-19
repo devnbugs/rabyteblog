@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/article.dart';
-import 'package:wordpress_app/cards/card5.dart';
-import 'package:wordpress_app/services/wordpress_service.dart';
+import 'package:rabyteblog/models/article.dart';
+import 'package:rabyteblog/cards/card5.dart';
+import 'package:rabyteblog/services/wordpress_service.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:wordpress_app/utils/vertical_line.dart';
-import 'package:wordpress_app/widgets/loading_indicator_widget.dart';
+import 'package:rabyteblog/utils/vertical_line.dart';
+import 'package:rabyteblog/widgets/loading_indicator_widget.dart';
 
 class RelatedArticles extends StatefulWidget {
   final int? postId;

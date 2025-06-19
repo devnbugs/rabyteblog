@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
-import 'package:wordpress_app/cards/card6.dart';
-import 'package:wordpress_app/cards/card4.dart';
-import 'package:wordpress_app/models/article.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
+import 'package:rabyteblog/cards/card6.dart';
+import 'package:rabyteblog/cards/card4.dart';
+import 'package:rabyteblog/models/article.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/utils/vertical_line.dart';
-import 'package:wordpress_app/widgets/inline_ads.dart';
+import 'package:rabyteblog/utils/vertical_line.dart';
+import 'package:rabyteblog/widgets/inline_ads.dart';
 import '../blocs/latest_articles_bloc.dart';
 import 'loading_indicator_widget.dart';
 

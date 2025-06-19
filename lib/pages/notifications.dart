@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:wordpress_app/cards/custom_notification_card.dart';
-import 'package:wordpress_app/cards/post_notification_card.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/models/notification_model.dart';
-import 'package:wordpress_app/services/notification_service.dart';
-import 'package:wordpress_app/utils/empty_image.dart';
+import 'package:rabyteblog/cards/custom_notification_card.dart';
+import 'package:rabyteblog/cards/post_notification_card.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/models/notification_model.dart';
+import 'package:rabyteblog/services/notification_service.dart';
+import 'package:rabyteblog/utils/empty_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 import '../constants/constant.dart';

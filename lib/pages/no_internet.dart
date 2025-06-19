@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/pages/splash.dart';
-import 'package:wordpress_app/utils/empty_image.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/pages/splash.dart';
+import 'package:rabyteblog/utils/empty_image.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class NoInternet extends StatelessWidget {
   const NoInternet({super.key});

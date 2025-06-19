@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:wordpress_app/config/config.dart';
+import 'package:rabyteblog/config/config.dart';
 
 class ThemeModel {
   // LIGHT MODE

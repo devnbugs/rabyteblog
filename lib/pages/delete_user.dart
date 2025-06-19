@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
-import 'package:wordpress_app/blocs/user_bloc.dart';
-import 'package:wordpress_app/models/user.dart';
-import 'package:wordpress_app/pages/welcome.dart';
-import 'package:wordpress_app/services/auth_service.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/blocs/user_bloc.dart';
+import 'package:rabyteblog/models/user.dart';
+import 'package:rabyteblog/pages/welcome.dart';
+import 'package:rabyteblog/services/auth_service.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class DeleteUser extends StatefulWidget {
   const DeleteUser({super.key});

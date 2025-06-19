@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/user_bloc.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/pages/create_account.dart';
-import 'package:wordpress_app/pages/done.dart';
-import 'package:wordpress_app/pages/login.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/blocs/user_bloc.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/pages/create_account.dart';
+import 'package:rabyteblog/pages/done.dart';
+import 'package:rabyteblog/pages/login.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:wordpress_app/widgets/app_logo.dart';
-import 'package:wordpress_app/widgets/language.dart';
+import 'package:rabyteblog/widgets/app_logo.dart';
+import 'package:rabyteblog/widgets/language.dart';
 
 import '../blocs/config_bloc.dart';
 

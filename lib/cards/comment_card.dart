@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/cards/comment_reply_card.dart';
-import 'package:wordpress_app/services/app_service.dart';
+import 'package:rabyteblog/cards/comment_reply_card.dart';
+import 'package:rabyteblog/services/app_service.dart';
 
 import '../models/comment.dart';
 import '../widgets/html_body/html_body.dart';

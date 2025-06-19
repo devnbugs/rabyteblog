@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/user_bloc.dart';
-import 'package:wordpress_app/pages/delete_social_user.dart';
-import 'package:wordpress_app/pages/delete_user.dart';
+import 'package:rabyteblog/blocs/user_bloc.dart';
+import 'package:rabyteblog/pages/delete_social_user.dart';
+import 'package:rabyteblog/pages/delete_user.dart';
 
 
 class SecurityPage extends StatefulWidget {

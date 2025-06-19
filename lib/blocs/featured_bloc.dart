@@ -1,6 +1,6 @@
 import 'package:carousel_slider_plus/carousel_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/services/wordpress_service.dart';
+import 'package:rabyteblog/services/wordpress_service.dart';
 import '../models/article.dart';
 
 class FeaturedBloc extends ChangeNotifier {

@@ -2,9 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/pages/home.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/pages/home.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});

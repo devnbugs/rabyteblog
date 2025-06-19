@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/notification_model.dart';
-import 'package:wordpress_app/services/app_service.dart';
-import 'package:wordpress_app/services/notification_service.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/models/notification_model.dart';
+import 'package:rabyteblog/services/app_service.dart';
+import 'package:rabyteblog/services/notification_service.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class CustomNotificationCard extends StatelessWidget {
   const CustomNotificationCard({super.key, required this.notificationModel});

@@ -1,8 +1,8 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/comment_bloc.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
+import 'package:rabyteblog/blocs/comment_bloc.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
 import 'blocs/ads_bloc.dart';
 import 'blocs/category_bloc.dart';
 import 'blocs/featured_bloc.dart';

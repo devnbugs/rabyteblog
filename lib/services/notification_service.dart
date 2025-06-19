@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/models/notification_model.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/models/notification_model.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 import '../constants/constant.dart';
 
 class NotificationService {

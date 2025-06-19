@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-import 'package:wordpress_app/blocs/theme_bloc.dart';
-import 'package:wordpress_app/services/app_service.dart';
-import 'package:wordpress_app/widgets/loading_indicator_widget.dart';
+import 'package:rabyteblog/blocs/theme_bloc.dart';
+import 'package:rabyteblog/services/app_service.dart';
+import 'package:rabyteblog/widgets/loading_indicator_widget.dart';
 
 class SocialEmbed extends StatefulWidget {
   const SocialEmbed({super.key, required this.data, this.embedPlatform});

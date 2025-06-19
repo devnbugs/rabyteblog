@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/constants/constant.dart';
-import 'package:wordpress_app/models/app_config_model.dart';
-import 'package:wordpress_app/models/article.dart';
-import 'package:wordpress_app/models/notification_model.dart';
-import 'package:wordpress_app/pages/article_details/article_details_layout_1.dart';
-import 'package:wordpress_app/pages/custom_notification_details.dart';
-import 'package:wordpress_app/pages/article_details/video_article_details.dart';
-import 'package:wordpress_app/pages/future_article_details.dart';
-import 'package:wordpress_app/services/app_service.dart';
+import 'package:rabyteblog/constants/constant.dart';
+import 'package:rabyteblog/models/app_config_model.dart';
+import 'package:rabyteblog/models/article.dart';
+import 'package:rabyteblog/models/notification_model.dart';
+import 'package:rabyteblog/pages/article_details/article_details_layout_1.dart';
+import 'package:rabyteblog/pages/custom_notification_details.dart';
+import 'package:rabyteblog/pages/article_details/video_article_details.dart';
+import 'package:rabyteblog/pages/future_article_details.dart';
+import 'package:rabyteblog/services/app_service.dart';
 import '../pages/article_details/article_details_layout2.dart';
 import '../pages/article_details/article_details_layout3.dart';
 

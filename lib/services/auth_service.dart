@@ -7,8 +7,8 @@ import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:http/http.dart' as http;
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-import 'package:wordpress_app/config/wp_config.dart';
-import 'package:wordpress_app/utils/toast.dart';
+import 'package:rabyteblog/config/wp_config.dart';
+import 'package:rabyteblog/utils/toast.dart';
 import '../models/user.dart';
 
 class AuthService {

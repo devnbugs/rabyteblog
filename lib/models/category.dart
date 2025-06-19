@@ -1,4 +1,4 @@
-import 'package:wordpress_app/config/wp_config.dart';
+import 'package:rabyteblog/config/wp_config.dart';
 
 class Category {
   final int? id;

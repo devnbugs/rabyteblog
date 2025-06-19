@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/post_tag.dart';
-import 'package:wordpress_app/pages/tag_based_articles.dart';
-import 'package:wordpress_app/services/wordpress_service.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/models/post_tag.dart';
+import 'package:rabyteblog/pages/tag_based_articles.dart';
+import 'package:rabyteblog/services/wordpress_service.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class Tags extends StatefulWidget {
   const Tags({super.key, required this.tagIds});

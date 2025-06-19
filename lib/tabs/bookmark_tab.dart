@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:wordpress_app/cards/bookmark_card.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/models/article.dart';
-import 'package:wordpress_app/services/bookmark_service.dart';
-import 'package:wordpress_app/utils/empty_image.dart';
+import 'package:rabyteblog/cards/bookmark_card.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/models/article.dart';
+import 'package:rabyteblog/services/bookmark_service.dart';
+import 'package:rabyteblog/utils/empty_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../constants/constant.dart';
 

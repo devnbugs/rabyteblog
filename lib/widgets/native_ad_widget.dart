@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:wordpress_app/config/ad_config.dart';
-import 'package:wordpress_app/config/config.dart';
+import 'package:rabyteblog/config/ad_config.dart';
+import 'package:rabyteblog/config/config.dart';
 
 class NativeAdWidget extends StatefulWidget {
   const NativeAdWidget({super.key, required this.isDarkMode, required this.isSmallSize});

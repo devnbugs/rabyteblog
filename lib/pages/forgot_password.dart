@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
-import 'package:wordpress_app/services/app_service.dart';
-import 'package:wordpress_app/services/auth_service.dart';
-import 'package:wordpress_app/utils/dialog.dart';
+import 'package:rabyteblog/services/app_service.dart';
+import 'package:rabyteblog/services/auth_service.dart';
+import 'package:rabyteblog/utils/dialog.dart';
 
 class ForgotPasswordPage extends StatefulWidget {
   const ForgotPasswordPage({super.key});

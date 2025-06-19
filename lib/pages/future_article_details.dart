@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/article.dart';
-import 'package:wordpress_app/pages/article_details/article_details_layout_1.dart';
-import 'package:wordpress_app/pages/article_details/video_article_details.dart';
-import 'package:wordpress_app/services/app_service.dart';
-import 'package:wordpress_app/services/wordpress_service.dart';
-import 'package:wordpress_app/widgets/loading_indicator_widget.dart';
+import 'package:rabyteblog/models/article.dart';
+import 'package:rabyteblog/pages/article_details/article_details_layout_1.dart';
+import 'package:rabyteblog/pages/article_details/video_article_details.dart';
+import 'package:rabyteblog/services/app_service.dart';
+import 'package:rabyteblog/services/wordpress_service.dart';
+import 'package:rabyteblog/widgets/loading_indicator_widget.dart';
 
 class FutureArticleDetails extends StatefulWidget {
   final int? postID;

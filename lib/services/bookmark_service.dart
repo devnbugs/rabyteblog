@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
-import 'package:wordpress_app/models/article.dart';
-import 'package:wordpress_app/utils/snacbar.dart';
+import 'package:rabyteblog/models/article.dart';
+import 'package:rabyteblog/utils/snacbar.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../constants/constant.dart';
 

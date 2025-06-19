@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:wordpress_app/config/ad_config.dart';
+import 'package:rabyteblog/config/ad_config.dart';
 
 class BannerAdWidget extends StatefulWidget {
   const BannerAdWidget({super.key});

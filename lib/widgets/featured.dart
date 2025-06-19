@@ -1,9 +1,9 @@
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
-import 'package:wordpress_app/cards/feature_card.dart';
-import 'package:wordpress_app/utils/loading_card.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
+import 'package:rabyteblog/cards/feature_card.dart';
+import 'package:rabyteblog/utils/loading_card.dart';
 import '../blocs/featured_bloc.dart';
 import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';

@@ -1,4 +1,4 @@
-import 'package:wordpress_app/constants/constant.dart';
+import 'package:rabyteblog/constants/constant.dart';
 
 class ConfigModel {
   final List<int> homeCategories;

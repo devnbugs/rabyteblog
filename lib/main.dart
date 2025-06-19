@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/config/language_config.dart';
-import 'package:wordpress_app/services/app_service.dart';
+import 'package:rabyteblog/config/language_config.dart';
+import 'package:rabyteblog/services/app_service.dart';
 import 'app.dart';
 
 void main() async {

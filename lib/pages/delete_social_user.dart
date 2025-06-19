@@ -2,9 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
-import 'package:wordpress_app/blocs/user_bloc.dart';
-import 'package:wordpress_app/pages/welcome.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/blocs/user_bloc.dart';
+import 'package:rabyteblog/pages/welcome.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 import '../utils/toast.dart';
 

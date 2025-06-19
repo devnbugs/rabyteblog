@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/services/wordpress_service.dart';
+import 'package:rabyteblog/services/wordpress_service.dart';
 import '../models/article.dart';
 
 class PopularArticlesBloc extends ChangeNotifier {

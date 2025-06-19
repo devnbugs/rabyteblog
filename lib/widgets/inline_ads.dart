@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
 import '../blocs/theme_bloc.dart';
 import '../config/custom_ad_config.dart';
 import '../constants/constant.dart';

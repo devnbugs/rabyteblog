@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:wordpress_app/config/language_config.dart';
-import 'package:wordpress_app/widgets/country_flag.dart';
+import 'package:rabyteblog/config/language_config.dart';
+import 'package:rabyteblog/widgets/country_flag.dart';
 
 class LanguagePopup extends StatefulWidget {
   const LanguagePopup({super.key});

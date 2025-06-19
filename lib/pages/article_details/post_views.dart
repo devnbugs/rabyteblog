@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
-import 'package:wordpress_app/models/article.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
+import 'package:rabyteblog/models/article.dart';
 
 class PostViews extends StatelessWidget {
   const PostViews({super.key, required this.article, this.textColor});

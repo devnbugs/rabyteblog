@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/theme_bloc.dart';
+import 'package:rabyteblog/blocs/theme_bloc.dart';
 import '../config/config.dart';
 
 class AppLogo extends StatelessWidget {

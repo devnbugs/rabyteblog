@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:wordpress_app/models/user.dart';
-import 'package:wordpress_app/services/auth_service.dart';
-import 'package:wordpress_app/services/bookmark_service.dart';
+import 'package:rabyteblog/models/user.dart';
+import 'package:rabyteblog/services/auth_service.dart';
+import 'package:rabyteblog/services/bookmark_service.dart';
 
 class UserBloc extends ChangeNotifier {
 

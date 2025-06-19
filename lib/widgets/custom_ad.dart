@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/services/app_service.dart';
+import 'package:rabyteblog/services/app_service.dart';
 
 class CustomAdWidget extends StatelessWidget {
   const CustomAdWidget({super.key, required this.assetUrl, required this.targetUrl, this.radius});

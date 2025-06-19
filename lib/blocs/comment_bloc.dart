@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:wordpress_app/utils/toast.dart';
+import 'package:rabyteblog/utils/toast.dart';
 
 class CommentsBloc extends ChangeNotifier{
 

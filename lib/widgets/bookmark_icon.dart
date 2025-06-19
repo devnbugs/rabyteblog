@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/article.dart';
+import 'package:rabyteblog/models/article.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:wordpress_app/services/bookmark_service.dart';
+import 'package:rabyteblog/services/bookmark_service.dart';
 
 class BookmarkIcon extends StatelessWidget {
   const BookmarkIcon({

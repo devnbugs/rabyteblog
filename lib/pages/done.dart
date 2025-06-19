@@ -1,11 +1,11 @@
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wordpress_app/blocs/config_bloc.dart';
-import 'package:wordpress_app/config/config.dart';
-import 'package:wordpress_app/pages/home.dart';
-import 'package:wordpress_app/pages/intro.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/blocs/config_bloc.dart';
+import 'package:rabyteblog/config/config.dart';
+import 'package:rabyteblog/pages/home.dart';
+import 'package:rabyteblog/pages/intro.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 class DonePage extends StatefulWidget {
   const DonePage({super.key});

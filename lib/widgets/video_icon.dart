@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_app/models/article.dart';
+import 'package:rabyteblog/models/article.dart';
 
 class VideoIcon extends StatelessWidget {
   final Article article;

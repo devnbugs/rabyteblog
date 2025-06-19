@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 import 'package:html/parser.dart';
 import 'package:html_unescape/html_unescape.dart';
-import 'package:wordpress_app/models/notification_model.dart';
-import 'package:wordpress_app/utils/next_screen.dart';
+import 'package:rabyteblog/models/notification_model.dart';
+import 'package:rabyteblog/utils/next_screen.dart';
 
 void openNotificationDialog(context, NotificationModel notificationModel) {
     showDialog(

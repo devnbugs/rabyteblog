@@ -1,4 +1,4 @@
-# wordpress_app
+# rabyteblog
 
 A new Flutter project.
 

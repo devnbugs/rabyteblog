@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:wordpress_app/models/notification_model.dart';
+import 'package:rabyteblog/models/notification_model.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:wordpress_app/services/app_service.dart';
-import 'package:wordpress_app/widgets/html_body/html_body.dart';
+import 'package:rabyteblog/services/app_service.dart';
+import 'package:rabyteblog/widgets/html_body/html_body.dart';
 
 class CustomNotificationDeatils extends StatelessWidget {
   const CustomNotificationDeatils({super.key, required this.notificationModel})
